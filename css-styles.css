@@ -1,0 +1,70 @@
+/*
+1. Class Selectors 
+2. Tag Selectors
+3. ID Selectors
+4. Pseudo-class Selectors
+5. Pseudo-class Element
+    */
+
+    .header {
+        background-color: yellow;
+    }
+    .main {
+        background-color: orange
+    }
+    .footer {
+        background-color: orangered;
+    }
+    
+    
+    
+    h1 {
+        font-size: 100px;
+        color: rgb(165, 42, 118);
+    }
+    ul {
+        font-size: 30px;
+        color: hwb(0 4% 46%)
+    }
+    h2 {
+        font-size: 50px;
+        color: hwb(249 4% 46%)
+    }
+    p {
+        font-size: 20px;
+        color: hwb(0 0% 100%)
+    }
+    
+    
+    #first-item {
+        background-color: blueviolet;
+        border: red 2px solid;
+        color: hwb(135 5% 27%)
+    }
+    
+    
+    a:hover{
+        color:red 
+      } 
+    a:active {
+        color: rgb(241, 241, 245);
+      }
+    
+    
+      p::first-letter {
+        color: #ff0000;
+        font-size: 50px;
+    }
+    
+    .header{
+        padding: 40px;
+        margin: 40px;
+      }
+    .main{
+        padding: 40px;
+        margin: 40px;
+      }
+    .footer{
+        padding: 40px;
+        margin: 40px;
+      }
